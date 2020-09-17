@@ -29,7 +29,7 @@
             <dd class="jumbotron">
               <p>{{object.detail_text|linebreaks}}</p>
                 <a href="{% url 'App_Shop:home' %}" class="btn btn-lg btn btn-info text-uppercase"> <i class="fas fa-angle-left"></i> Back </a>
-                <a href="#" class="btn btn-lg btn btn-danger text-uppercase"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>    
+                <a href="{% url 'App_Order:add' pk=object.pk %}" class="btn btn-lg btn btn-danger text-uppercase"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>    
             </dd>
           </dl>
           
