@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'App_Login',
+    'App_LOgin',
     'App_Order',
     'App_Payment',
     'App_Shop',
@@ -50,6 +50,8 @@ INSTALLED_APPS = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+AUTH_USER_MODEL = "App_LOgin.User"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
