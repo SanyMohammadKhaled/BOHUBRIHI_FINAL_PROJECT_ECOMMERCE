@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% load crispy_forms_tags %}
 {% block title_block %} Create Account {% endblock %}
 {% block body_block %}
@@ -6,10 +7,13 @@
     <style>
         .change{
             width: 800px;
-            border: 2px;
+            border: 0px;
             text-align: center;
             font-family: 'Roboto Slab', serif;
-            background-color: white;
+            background-color: whitesmoke;
+            background-image:url("https://img.icons8.com/dusk/512/000000/shopify.png");
+            background-repeat:no-repeat;
+            background-size:50%;
         }
         
     </style>
@@ -17,7 +21,7 @@
 {% endblock %}
 <div class="change container">
 <div class="text-center border p-5">
-    <p class="h4 mb-4">Create Your Account</p>
+    <p class="h4 mb-4">Update Your Account Information </p>
     
     
         
