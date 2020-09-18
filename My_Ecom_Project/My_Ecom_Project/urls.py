@@ -9,6 +9,7 @@ urlpatterns = [
     path('accounts/',include('App_LOgin.urls')),
     path('',include('App_Shop.urls')),
     path('shop/',include('App_Order.urls')),
+    path('payment/',include('App_Payment.urls')),
 ]
 
 
